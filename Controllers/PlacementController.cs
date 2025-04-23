@@ -15,23 +15,32 @@ namespace PlacementApp.Controllers
         }
 
         // Display placement info form
-        public IActionResult PlacementInfo()
+        public IActionResult Placements()
         {
             return View();
         }
 
         // Handle placement info form submission
         [HttpPost]
-        public IActionResult PlacementInfo(Models.PlacementInfo model)
+        public IActionResult Placements(Models.PlacementInfo model)
         {
-            if (ModelState.IsValid)
+            try
             {
-                // TODO: Save placement info to database or storage
-                ViewBag.Message = "Placement info saved successfully.";
-                ModelState.Clear();
-                return View();
+                if (ModelState.IsValid)
+                {
+                    // TODO: Save placement info to database or storage
+                    ViewBag.Message = "Placement info saved successfully.";
+                    ModelState.Clear();
+                    return View();
+                }
+                return View(model);
             }
-            return View(model);
+            catch (Exception ex)
+            {
+                // Log the exception (logging mechanism to be implemented)
+                ViewBag.ErrorMessage = "An error occurred while saving placement info: " + ex.Message;
+                return View(model);
+            }
         }
 
         // Display vendor management form

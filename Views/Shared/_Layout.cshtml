@@ -12,23 +12,24 @@
     <header class="bg-white shadow">
         <div class="container mx-auto flex items-center justify-between p-4">
             <div class="flex items-center space-x-4">
-                <div class="h-10 w-10 flex items-center justify-center bg-blue-600 text-white font-bold rounded">Logo</div>
-                <h1 class="text-2xl font-bold text-gray-800 ml-2">Your Company Name</h1>
+                <div class="h-10 w-10 flex items-center justify-center bg-blue-600 text-white font-bold rounded">THX</div>
+                <h1 class="text-2xl font-bold text-gray-800 ml-2">The Hirexpress LLC</h1>
             </div>
             <nav class="space-x-6 text-gray-600">
                 <a href="/" class="hover:text-blue-600 transition">Home</a>
-                <a href="/Placement/PlacementInfo" class="hover:text-blue-600 transition">Placement Info</a>
-                <a href="/Placement/VendorManagement" class="hover:text-blue-600 transition">Vendor Management</a>
-                <a href="/Placement/BankDetails" class="hover:text-blue-600 transition">Bank Details</a>
+                <a asp-controller="Placement" asp-action="Placements" class="hover:text-blue-600 transition">Placements</a>
+                <a asp-controller="Placement" asp-action="VendorManagement" class="hover:text-blue-600 transition">Vendor Management</a>
+                <a asp-controller="Placement" asp-action="BankDetails" class="hover:text-blue-600 transition">Bank Details</a>
             </nav>
         </div>
     </header>
     <main class="container mx-auto p-6">
         @RenderBody()
+        @RenderSection("Scripts", required: false)
     </main>
     <footer class="bg-white shadow mt-12">
         <div class="container mx-auto p-4 text-center text-gray-500 text-sm">
-            &copy; 2024 Your Company Name. All rights reserved.
+            &copy; 2024 The Hirexpress LLC. All rights reserved.
         </div>
     </footer>
 </body>

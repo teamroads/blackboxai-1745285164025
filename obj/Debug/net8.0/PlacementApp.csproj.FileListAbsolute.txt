@@ -346,6 +346,7 @@
 /project/sandbox/user-workspace/obj/Debug/net8.0/PlacementApp.MvcApplicationPartsAssemblyInfo.cache
 /project/sandbox/user-workspace/obj/Debug/net8.0/PlacementApp.RazorAssemblyInfo.cache
 /project/sandbox/user-workspace/obj/Debug/net8.0/PlacementApp.RazorAssemblyInfo.cs
+/project/sandbox/user-workspace/obj/Debug/net8.0/PlacementApp.sourcelink.json
 /project/sandbox/user-workspace/obj/Debug/net8.0/staticwebassets.build.json
 /project/sandbox/user-workspace/obj/Debug/net8.0/staticwebassets.development.json
 /project/sandbox/user-workspace/obj/Debug/net8.0/staticwebassets/msbuild.PlacementApp.Microsoft.AspNetCore.StaticWebAssets.props

@@ -26,14 +26,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxhY2VtZW50L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/project/sandbox/user-workspace/Views/Placement/PlacementInfo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxhY2VtZW50L1BsYWNlbWVudEluZm8uY3NodG1s
+[/project/sandbox/user-workspace/Views/Placement/Placements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxhY2VtZW50L1BsYWNlbWVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/project/sandbox/user-workspace/Views/Placement/UploadDocuments.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxhY2VtZW50L1VwbG9hZERvY3VtZW50cy5jc2h0bWw=
+[/project/sandbox/user-workspace/Views/Placement/VendorManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGxhY2VtZW50L1ZlbmRvck1hbmFnZW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/project/sandbox/user-workspace/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/project/sandbox/user-workspace/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/project/sandbox/user-workspace/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
